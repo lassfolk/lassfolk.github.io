@@ -1,0 +1,9 @@
+footer {
+    text-align: center;
+    background-color: rgba(207, 255, 183, 0.79);
+    max-width: 1000px;    
+    background-image: url("");
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 10px;
+    }

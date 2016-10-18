@@ -1,0 +1,60 @@
+/* ALL SCREEN SIZES UNDER THIS
+
+/* MISC CSS RULES UNDER THIS LINE */
+
+    .clearfix:after {
+        visibility: hidden;
+        display: block;
+         font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+    .clearfix { display: inline-block; }
+    * html .clearfix { height: 1%; }
+    .clearfix { display: block; }
+    *{
+        box-sizing: border-box;
+    }
+    img {
+    max-width: 100%;  
+    }
+
+    /* All screen sizing rules under this line */
+
+/* SCREEN OVER 700px */
+@media screen and (min-width: 700px) {
+    #text_portrait {
+        font-size: 1em;
+    }
+    #pic_portrait {
+    width: 30%;
+    float: left;
+    }
+    header {
+    
+    }
+}
+
+    /* SCREEN UNDER 995px */
+@media screen and (max-width: 995px) {
+    #text_portrait {
+    font-size: 0.8em;
+    }
+    
+    #pic_portrait {
+    float: left;
+    width: 30%;
+    }
+        
+    header {
+        font-size: 1.1em;
+       
+}
+    nav a {
+    font-size: 0.9em;
+    width: 200px auto;
+    margin: 5px auto;
+    border-radius: 0px;
+    }
+}
