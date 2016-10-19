@@ -1,6 +1,7 @@
 footer {
     text-align: center;
     background-color: rgba(207, 255, 183, 0.79);
+    background-color: white;
     max-width: 1000px;    
     background-image: url("");
     background-size: cover;

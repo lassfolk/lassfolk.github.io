@@ -1,12 +1,12 @@
 header {
-        background-color: rgba(0,0,0,0.1)
-        background-image: url("");
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 10px;
-        margin-right: 10px;
-        
-       }
+    background-color: rgba(0, 0, 0, 0.80);
+    max-width: 1000px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
 
 nav a {
     display: inline-block;
@@ -16,22 +16,27 @@ nav a {
     border-color: black;
     color: black;
     width: 194px;
-    box-shadow: 4px 4px 4px green;
+    box-shadow: 5px 5px 5px green;
     text-decoration: none;
     padding: 5px;
     border-radius: 5px;
-    }
+}
 
-    nav a:hover {
-        background-color: rgb(10, 178, 68);
-        color: black;
-        box-shadow: 4px 4px 4px lightgreen;
-        padding: 5px;
-        }
+nav a:hover {
+    background-color: rgb(10, 178, 68);
+    color: black;
+    box-shadow: 5px 5px 5px lightgreen;
+    padding: 5px;
+}
 
-    nav a:active {
-        background-color: rgb(10, 178, 68);
-        color: black;
-        box-shadow: 4px 4px 4px lightgreen;
-        padding: 5px;
-        }
+nav a:active {
+    background-color: rgb(10, 178, 68);
+    color: black;
+    box-shadow: 5px 5px 5px lightgreen;
+    padding: 5px;
+}
+
+.menu {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px green;
+}

@@ -20,41 +20,37 @@
     max-width: 100%;  
     }
 
-    /* All screen sizing rules under this line */
+/* Screen sizing rules under this line */
 
-/* SCREEN OVER 700px */
-@media screen and (min-width: 700px) {
-    #text_portrait {
-        font-size: 1em;
+    /* SCREEN OVER 1002px */
+@media only screen and (min-width: 1003px) {
+    .menu {
+        display: none;
     }
-    #pic_portrait {
-    width: 30%;
-    float: left;
-    }
-    header {
-    
+    .dropdown-content {
+        display: inline-block;
     }
 }
-
-    /* SCREEN UNDER 995px */
-@media screen and (max-width: 995px) {
-    #text_portrait {
-    font-size: 0.8em;
+    /* SCREEN UNDER 1002px */
+@media only screen and (max-width: 1002px) {
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
     }
     
-    #pic_portrait {
-    float: left;
-    width: 30%;
+    .dropdown-content {
+        display: none;
+        position: absolute;
     }
-        
-    header {
-        font-size: 1.1em;
-       
-}
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
     nav a {
-    font-size: 0.9em;
-    width: 200px auto;
-    margin: 5px auto;
-    border-radius: 0px;
+        margin: 3px;
+    }
+    header {
+        display: inline-block;
     }
 }
