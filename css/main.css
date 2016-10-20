@@ -1,6 +1,7 @@
 main {
     background-color: rgba(0, 0, 0, 0.80);
     max-width: 1000px;
+    min-width: 380px;
     margin: 0 auto;
     margin-bottom: -16px;
     color: white;
