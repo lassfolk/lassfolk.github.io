@@ -57,3 +57,19 @@
         display: inline-block;
     }
 }
+
+
+
+
+    /* SCREEN UNDER 780px */
+@media only screen and (max-width: 780px) {
+    #text_portrait {
+        font-size: 0.9em;
+    }
+}
+    /* SCREEN UNDER 680px */
+@media only screen and (max-width: 680px) {
+    #text_portrait {
+        font-size: 0.8em;
+    }
+}
