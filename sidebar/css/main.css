@@ -2,4 +2,5 @@ main {
     width: 1000px;
     margin-left: 200px;
     margin-right: 200px;
+    transition: 0.5s;
 }

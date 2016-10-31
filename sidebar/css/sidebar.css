@@ -2,7 +2,7 @@
     background-color: lightblue;
     height: 100%;
     width: 0;
-    top: 0px;
+    top: 20px;
     left: 50px;
     position: fixed;
     padding-top: 50px;
@@ -29,7 +29,7 @@
 
 .sidebar .closebutton {
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 5px;
     font-size: 35px;
     margin 0;
@@ -38,22 +38,29 @@
 }
 
 #openmenu {
-    background-color: deepskyblue;
+    background-color: #87a2eb;
     width: 50px;
     text-align: center;
     z-index: 1;
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     height: 100%;
-    color: white;
 }
 
 #openmenubutton {
     transition: 0.5s;
 }
+
 #openmenubar {
     transition: 0.5s;
     text-decoration: none;
     color: white;
+}
+#openmenubutton_active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
 }
