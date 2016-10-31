@@ -1,0 +1,59 @@
+.sidebar {
+    background-color: lightblue;
+    height: 100%;
+    width: 0;
+    top: 0px;
+    left: 50px;
+    position: fixed;
+    padding-top: 50px;
+    transition: 0.5s;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.sidebar a {
+    width: 150px;
+    display: block;
+    text-decoration: none;
+    margin: 5px auto;
+    font-size: 20px;
+    margin-left: 25px;
+    transition: 0.4s;
+    color: white;
+	
+}
+
+.sidebar a:hover {
+    color: blue;
+}
+
+.sidebar .closebutton {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 35px;
+    margin 0;
+    width: auto;
+    color: white;
+}
+
+#openmenu {
+    background-color: deepskyblue;
+    width: 50px;
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    color: white;
+}
+
+#openmenubutton {
+    transition: 0.5s;
+}
+#openmenubar {
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+}
