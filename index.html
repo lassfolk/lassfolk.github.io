@@ -10,12 +10,17 @@
         <link rel="stylesheet" href="css/body.css">
         <link rel="stylesheet" href="css/footer.css">
         <script src="/js/menu.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
-
     <body>
         
-         <header>
-            <nav role="navigation" class="dropdown">
+        <div id="videodiv">
+        <iframe id="videobgindex" src="https://www.youtube.com/v/QI9ta7qkazU?playlist=QI9ta7qkazU&loop=1&;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1;" frameborder="0">
+        </iframe>
+        </div>
+                           
+        <header>
+            <nav class="dropdown">
                 <a class="menubutton dropbtn" onclick="myFunction()">Menu</a>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="index.html">Personal details</a> 
@@ -29,10 +34,10 @@
         
         <main class="clearfix">
             
-                <section>
-                <div id="pic_portrait">
+              
+                    <div id="pic_portrait">
                     <img src="img/self_portrait.jpg" alt="Self portrait of Alf Lassfolk">
-                </div><!-- pic_portrait -->
+                    </div><!-- pic_portrait -->
                 <div id="text_portrait">       
                 <dl>
                     <dt><h2>Alf Lassfolk</h2></dt>
@@ -41,7 +46,7 @@
                     <dt>Residence</dt>
                     <dd>Helsinki, Finland</dd><br>
                     <dt>Family</dt>
-                    <dd>Son 8 years old</dd><br>
+                    <dd>Son</dd><br>
                     <dt>Pets</dt>
                     <dd>Bengal cats</dd>
                     <dd>Freshwater aquarium</dd><br>
@@ -50,11 +55,11 @@
                   
                 </dl>
                 </div>
-            </section><!-- section_presonal -->
+                
             
             <section id="text_personal">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.</p>
-            </section>
+            </section><!-- text_personal -->
         
         </main>
         
