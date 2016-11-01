@@ -1,6 +1,52 @@
 body {
     background-color: black;
-    background-image: url("/img/body_background.jpg");
-    background-size: cover contain;
+    background-image: url("");
+    background-size: auto;
+    background-attachment: fixed;
+    background-size: 100%;
     margin: 0 auto;
+}
+
+#videobgref {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;    
+}
+
+#videobgedu {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+    
+#videobgindex {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+#videobgcont {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+#videobgemp {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+#videodiv {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+@keyframes fadein {
+    from { opacity: 0 }
+    to { opacity: 1 }
 }
