@@ -24,6 +24,7 @@ main {
     float: left;
     max-width: 30%;
     min-width: 200px;
+    border-radius: 30px;
     }
 
     dt {
