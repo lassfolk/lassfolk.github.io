@@ -33,7 +33,7 @@ nav a:hover {
 
 .menubutton {
     border-radius: 5px;
-    box-shadow: 5px 5px 5px yellow;
+    box-shadow: 5px 5px 5px #a7a7a7;
     cursor: pointer;
     
 }
