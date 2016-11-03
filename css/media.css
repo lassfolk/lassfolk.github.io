@@ -1,98 +1,54 @@
-/* ------------------------------ 2560x1440 ------------------------------ */
-@media only screen and (max-width:2560px) and (min-width:1920px) {
-
-#videobgref {
-    width: 2560px;
-    height: 1440px;
-    overflow: hidden;    
-}
-
-#videobgedu {
-    width: 2560px;
-    height: 1440px;
-    overflow: hidden;
-}
-    
-#videobgindex {
-    width: 2560px;
-    height: 1440px;
-    overflow: hidden;
-}
-
-#videobgcont {
-    width: 2560px;
-    height: 1440px;
-    overflow: hidden;
-}
-#videobgemp {
-    width: 2560px;
-    height: 1440px;
-    overflow: hidden;
-}
-}
 
 /* ------------------------------ 1920x1080 ------------------------------ */  
-@media only screen and (max-width:1920px) and (min-width:800px) {
+@media only screen and (min-width:800px) {
 
+.videodiv {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -1;
+transform: translateX(-50%) translateY(-50%);
+background: url("/img/background.jpg") no-repeat;
+background-size: cover;
+transition: 1s opacity;
+}
+    
 #videobgref {
-    width: 1920px;
-    height: 1080px;
-    overflow: hidden;    
+    width: 150%;
+    height: 150%;
 }
 
 #videobgedu {
-    width: 1920px;
-    height: 1080px;
-    overflow: hidden;
+    width: 150%;
+    height: 150%;
 }
     
 #videobgindex {
-    width: 1920px;
-    height: 1080px;
-    overflow: hidden;
+    width: 150%;
+    height: 150%;
 }
 
 #videobgcont {
-    width: 1920px;
-    height: 1080px;
-    overflow: hidden;
+    width: 150%;
+    height: 150%;
 }
 #videobgemp {
-    width: 1920px;
-    height: 1080px;
-    overflow: hidden;
+    width: 150%;
+    height: 150%;
 }
 }
 
 /* ------------------------------ Under 800px no video ------------------------------ */
-@media only screen and (max-width:800px) and (min-width:0px) {
+@media only screen and (max-width:800px) {
 
-#videobgref {
+.videodiv {
     display: none;
-    visibility: hidden;
-}
-
-#videobgedu {
-    display: none;
-    visibility: hidden;
-}
-    
-#videobgindex {
-    display: none;
-    visibility: hidden;
-}
-
-#videobgcont {
-    display: none;
-    visibility: hidden;
-}
-#videobgemp {
-    display: none;
-    visibility: hidden;
 }
 }
-
-
 
     /* SCREEN OVER 1015px */
 @media only screen and (min-width: 1015px) {
@@ -107,10 +63,7 @@
 
     /* SCREEN UNDER 1015px */
 @media only screen and (max-width: 1015px) {
-    .menubutton {
-        ;
-    }
-    
+
     .dropdown {
         position: relative;
         display: inline-block;
@@ -133,6 +86,7 @@
     }
     header {
         display: inline-block;
+        background-color: rgba(0, 0, 0, 0);
     }
 }
 
