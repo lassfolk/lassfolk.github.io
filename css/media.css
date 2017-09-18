@@ -6,8 +6,9 @@
 position: fixed;
 top: 50%;
 left: 50%;
+/*
 width: 160em;
-height: 160em;
+height: 160em;*/
 z-index: -1;
 transform: translate(-50%,-50%);
 background: url("/img/background.jpg") no-repeat;
