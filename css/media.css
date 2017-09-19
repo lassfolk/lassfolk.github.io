@@ -3,6 +3,8 @@
 @media only screen and (min-width:800px) {
 
     .videodiv {
+    height: 300%; 
+    top: -100%;
     top: 0;
     left: 0;
     position: absolute;
