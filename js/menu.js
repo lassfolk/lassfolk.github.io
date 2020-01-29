@@ -92,7 +92,7 @@ function onYouTubeIframeAPIReady() {
         
         education = new YT.Player("videobgedu", {
             
-        videoId: "Y_2IK1aGe8U",
+        videoId: "JNFX32Hz_N0",
 
         playerVars: {
         rel: 0,
